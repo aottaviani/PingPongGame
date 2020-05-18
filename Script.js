@@ -1,6 +1,3 @@
-var canvas = document.getElementById("myCanvasPaddle");
-var cxtx = canvas.getContext("2d");
-
 var paddleHeight = 50;
 var paddleWidth = 15;
 var xLeft = 0;
