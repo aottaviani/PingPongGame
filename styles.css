@@ -1,6 +1,54 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 canvas{
     background-color: silver;
     display: block;
     margin: auto;
     padding: 0;
 }
+
+#Botonera{
+    display: block;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.botones{
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+    color: rgb(6, 112, 165);
+    font-weight: 100;
+}
+
+.botones h2{
+    margin: 0px auto;
+}
+
+.cursorEffect:hover{
+    cursor: pointer;
+}
+
+#UpDown{
+   width: 200px;
+   margin: auto;
+}
+
+.levelupdown{
+    display: flexbox;
+    font-size: 1.5em;
+}
+
+.levelupdown:hover{
+    cursor: pointer;
+}
+

@@ -4,11 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juego Ping Pong</title>
-    <link rel="stylesheet" href="/styles.css"> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts.css"> 
 
 </head>
 <body>
     <canvas id=myCanvasPaddle width="600" height="400"></canvas>
-    <script src="/Dev-Script.js"></script>
+  
+<div id="Botonera">
+
+   <div class="botones cursorEffect" id="Start-Pause">
+    <h2>Start / Pause</h2>
+    <a class="icon-play3"  id="iconChange"></a>
+    <!-- <a class="icon-play3"></a> -->
+   </div>
+    
+   <div class="botones cursorEffect"  id="Reiniciar">
+   <h2>Restart</h2>   
+   <a class="icon-stop2"></a>
+    </div>
+  
+    <div class="botones" id="LevelID"> 
+       <h2 id="levelTitle">Level: easy</h2>
+       <span class="icon-minus levelupdown" onclick="changeDownLevel()" id="downLevel"></span>
+       <span class="icon-plus levelupdown" onclick="changeUpLevel()" id="upLevel"></span>
+     </div>      
+</div>
+    
+</div>
+    <script src="Dev-Script.js"></script>
 </body>
 </html>
